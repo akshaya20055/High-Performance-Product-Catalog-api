@@ -21,6 +21,7 @@ class Settings(BaseSettings):
 
 # Instantiate settings
 settings = Settings()
+print("DATABASE_URL =", settings.DATABASE_URL)
 
 # Configure logging
 logging.basicConfig(
